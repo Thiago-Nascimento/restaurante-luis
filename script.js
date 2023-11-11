@@ -30,7 +30,7 @@ function listarReservas(arrayReservas) {
 
 function formatarData(data) {
     let dataFormatada = data.split("-")
-    dataFormatada = dataFormatada[1] + "/" + (parseInt(dataFormatada[2])+1).toString() + "/" + dataFormatada[0]
+    dataFormatada = dataFormatada[1] + "/" + parseInt(dataFormatada[2]).toString() + "/" + dataFormatada[0]
 
     return dataFormatada
 }
